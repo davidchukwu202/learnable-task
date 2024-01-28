@@ -77,7 +77,6 @@ class MainStatistics {
   
   // Example
   const data = [5, 8, 12, 15, 18, 22, 22, 23, 25, 30];
-  const statsCalculator = new DescriptiveStatistics(data);
   
   console.log('Mean:', statsCalculator.calculateMean());
   console.log('Median:', statsCalculator.calculateMedian());
